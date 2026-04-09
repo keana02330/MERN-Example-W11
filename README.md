@@ -11,8 +11,9 @@ After making the database, you have to update the `app.js` file.
 const uri = "mongodb+srv://<username>:<password>@----.----.mongodb.net"
 
 ```
+## Step 2: Make your own repository or Fork the original one
 
-## Step 2: Mount Backend
+## Step 3: Mount Backend
 
 The backend is a Node.js server that uses Express and MongoDB.
 Steps to follow:
@@ -24,16 +25,16 @@ Steps to follow:
 
     3. Open http://localhost:5050 in your browser
 
-## Step 3: Mount Frontend
+## Step 4: Mount Frontend
 
 The frontend is a React application and uses the backend to fetch and add to do tasks. Steps to follow:
-    Clone the repository for the Frontend and run the following commands:
-    1. Install NPM
-    2. Run the server
-    3. Open http://localhost:3000 in your browser
+    - For the Frontend and run the following commands:
+        1. Install NPM
+        2. Run the server
+        3. Open http://localhost:3000 in your browser
 
 
-## Step 4: Update the style of frontend using Bootstrap and react bootstrap
+## Step 5: Update the style of frontend using Bootstrap and React Bootstrap
 You can use the components such as `<Row>`, `<Col>` and `<Button>` from react bootstrap. Also you can download bootstrap.min.css from https://bootswatch.com
 
 
